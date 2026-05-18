@@ -2,16 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <!-- replace WEBSITE with the address where this site is being hosted -->
    <url>
-       <loc>https://ml4cyber.github.io/25/</loc>
+       <loc>https://ml4cyber.github.io/26/</loc>
    </url>
    <url>
-       <loc>https://ml4cyber.github.io/25//registration</loc>
+       <loc>https://ml4cyber.github.io/26/registration/</loc>
    </url>
    <url>
-       <loc>https://ml4cyber.github.io/25//program</loc>
+       <loc>https://ml4cyber.github.io/26/program/</loc>
    </url>
    <url>
-       <loc>https://ml4cyber.github.io/25//directions</loc>
+       <loc>https://ml4cyber.github.io/26/directions/</loc>
+   </url>
+   <url>
+       <loc>https://ml4cyber.github.io/26/flyer/</loc>
    </url>
 </urlset> 
 
