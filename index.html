@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <base href="/26/">
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
     <link rel="stylesheet" type="text/css" media="all" href="assets/main.css"/>
@@ -22,12 +23,17 @@
     <!--        }-->
     <!--    </style>-->
     <style>
-        table.keynote {width: 1000px; margin: 8px auto 16px auto; border-collapse: collapse;}
-        td.kn-photo {width: 170px; vertical-align: top; padding: 1.4em 24px 0 0;}
-        td.kn-photo img {width: 160px; height: 160px; object-fit: cover; border-radius: 6px; box-shadow: 1px 1px 4px #c0c0c0;}
-        td.kn-text {vertical-align: top;}
-        td.kn-text h4 {margin: 1em 0 0.5em 0;}
-        td.kn-text p {width: auto; margin: 0 0 8px 0;}
+        table.keynote {margin-top: 0.4em; margin-bottom: 0.4em; border-collapse: collapse;}
+        table.keynote + table.keynote td {border-top: 1px solid var(--rule);}
+        td.kn-photo {width: 168px; padding: 1.4em 24px 1.2em 0;}
+        td.kn-photo img {width: 144px; height: 144px; object-fit: cover; border-radius: 50%; border: 1px solid var(--rule);}
+        td.kn-text {padding: 0.4em 0 1.2em 0;}
+        td.kn-text h4 {margin: 1em 0 0.4em 0; font-size: 1.15rem; font-weight: 600;}
+        td.kn-text p {max-width: none; margin: 0;}
+        @media (max-width: 720px) {
+            td.kn-photo {width: 96px; padding-right: 14px;}
+            td.kn-photo img {width: 82px; height: 82px;}
+        }
     </style>
     <title>6th ICDM ML4Cyber Workshop 2026</title>
 </head>
@@ -393,7 +399,7 @@ Please refer to the ICDM 2026 <a href="http://icdm2026.neu.edu.cn/CallforResearc
 </table>
 
 <h3>Program Committee</h3>
-<ul>
+<ul class="pc">
 <li><a href="https://baigd.github.io/">Guangdong Bai, University of Queensland</a></li>
 <li><a href="https://rbehnia.github.io">Rouzbeh Behnia, University of South Florida </a></li>
 <li><a href="https://www.researchgate.net/profile/Yidong-Chai-2">Yidong Chai, Hefei University</a></li>
